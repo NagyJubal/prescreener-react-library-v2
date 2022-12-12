@@ -1,0 +1,54 @@
+{
+  "name": "prescreener-react-library-v2",
+  "version": "0.0.1",
+  "description": "Prescreener Builder for Survey React library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Nagy Jubal",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.60.0",
+    "@babel/core": "^7.19.6",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.34",
+    "babel-loader": "^8.2.5",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.4.4",
+    "formik": "^2.1.5",
+    "yup": "^0.29.3",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.13",
+    "@mui/styles": "^5.10.15",
+    "@apollo/client": "^3.3.21",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "graphql": "^15.5.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "formik": "*",
+    "yup": "*",
+    "@mui/icons-material": "*",
+    "@mui/material": "*",
+    "@mui/styles": "*",
+    "@apollo/client": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "graphql": "*"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+
+}
